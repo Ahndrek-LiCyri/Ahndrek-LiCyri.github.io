@@ -1,8 +1,8 @@
 body {
-	background-color: DarkGrey;
+	background-color: rgb(60, 60, 60);
 }
 
-* {
+h1, p {
 	text-align: Center;
 	color: White;
 }
