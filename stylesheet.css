@@ -1,7 +1,7 @@
 /*Header*/
 .header{
 	text-align: Center;
-	padding: 20px;
+	padding: 10px;
 }
 /*NavBar*/
 .topnav{
@@ -19,4 +19,9 @@
 .topnav a:hover{
 	background-color: #ddd;
 	color: black;
+}
+/*Footer*/
+.footer{
+	text-align: center;
+	padding; 10px;
 }
