@@ -32,6 +32,47 @@ footer{
 	padding: 10px;
 	font-size: 12px;
 }
+/*Dropdown*/
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn{
+	border: none;
+	outline: none;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.dropdown:hover .dropbtn{
+	background-color: #ddd;
+	color: black;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	min-width: 160px;
+	z-index: 1;
+}
+.dropdown-content a{
+	float: none;
+	color: #f2f2f2;
+	background-color: #333;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover{
+	background-color: #ddd;
+	color: black;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
 /*Extras*/
 .redstatus{
 	color: red;
