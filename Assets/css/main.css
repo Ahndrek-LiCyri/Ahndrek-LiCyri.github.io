@@ -1,0 +1,138 @@
+:root {
+	--bgColor: rgb(77,77,77);
+	--bgActiveColor: rgb(108,108,108);
+	
+	--colorGreen: rgb(115,201,106);
+	--colorBlue: rgb(115,208,219);
+}
+
+html{
+	color: white;
+	font-family: 'Monda', sans-serif;
+}
+
+body {
+	background-image: url("../images/stars.jpg");
+	background-color: black;
+}
+
+hr {
+	color: var(--colorBlue);
+	border-color: var(--colorBlue);
+}
+
+img {
+	vertical-align: middle;
+}
+
+/*Top Navigation Bar*/
+.topnav {
+	overflow: hidden;
+	background-color: var(--bgColor);
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.topnav a {
+	float: left;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+	color: white;
+	transition: background-color 0.2s ease-in;
+}
+
+.topnav a:hover {
+	transition: background-color 0.2s ease-in;
+	background-color: var(--bgActiveColor);
+}
+
+/*Content blocks*/
+.content {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: var(--bgColor);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.content p {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.content a {
+	color: var(--colorGreen);
+	text-decoration: none;
+}
+
+.content a:hover {
+	text-decoration: underline;
+}
+
+/*Slideshow*/
+.slideshow-container,  .slideshow-container-2{
+	max-width: 750px;
+	position: relative;
+	margin: auto;
+}
+
+.slides1 {
+	display: none;
+}
+
+.slides2 {
+	display: none;
+}
+
+.slideshow-text {
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.slideshow-numbertext {
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+}
+
+.slideshow-dot, .slideshow-dot2 {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: var(--bgActiveColor);
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.slideshow-active, .slideshow-dot:hover, slideshow-dot2:hover {
+	background-color: var(--colorGreen);
+}
+
+/*Footer*/
+footer {
+	margin: auto;
+	margin-top: 15px;
+	width: 50%;
+	background-color: var(--bgColor);
+	text-align: center;
+	border-radius: 10px;
+}
+
+footer a {
+	color: var(--colorGreen);
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
